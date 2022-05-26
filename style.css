@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5.3rem;
+    padding-bottom: 5.3rem;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+header a {
+    text-decoration: none;
+    margin-left: 3rem;
+    font-size: 2.2rem;
+    color: #2e292e;
+    font-weight: 400;
+}
+ .btn {
+    width: 24rem;
+    height: 6rem;
+    background-color: #FB9400;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+}
+
+main{
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+
+}
+.emoji{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.emoji p{
+    color: #979797;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+.content{
+    display: flex;
+    align-items: center;
+   
+}
+
+.text-content{
+    width: 80%;
+  
+}
+
+.text-content h1{
+    font-size: 7.2rem;
+  
+    color: #2e292e;
+    margin-bottom: 4.7rem;
+  
+}
+.text-content p{
+    font-size: 2.4rem;
+    color: 
+    #979797;
+    font-weight: 400;
+    margin-bottom: 4.9rem;
+}
+.bg-content img{
+    width: 60rem;
+}
+
+
+@media (max-width:999px) {
+  
+
+    header {
+        flex-direction: column;
+    }
+
+    header a {
+        font-size: 1.4rem;
+        margin-left: 1rem;
+        display: inline-block;
+        padding: 2rem 0;
+    }
+
+    header .btn {
+        width: 20rem;
+        height: 4rem;
+       
+     
+    }
+    .text-content{
+        width: 90%;
+        padding-bottom: 9rem;
+       
+    }
+  .content{
+      flex-direction: column;
+      text-align: center;
+     
+  }
+    .text-content h1{
+       text-align: left;
+       padding-top: 5rem;
+       font-size: 2.9rem;
+    }
+    .text-content p{
+       text-align: left;
+        font-size: 2rem;
+     }
+     .text-content .btn{
+        width: 20rem;
+        height: 4rem;
+     }
+ 
+
+}
